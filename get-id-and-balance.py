@@ -6,7 +6,7 @@ s = '''
 '''
 import codecs
 # 输出的内容所在的文件(The output of the contents of the document)
-f = codecs.open('F:\\10.txt','w','utf-8')
+f = codecs.open('F:\\id-and-balance.csv','w','utf-8')
 import json
 data = json.loads(s)
 
